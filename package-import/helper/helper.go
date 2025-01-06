@@ -1,0 +1,20 @@
+package helper
+
+import "fmt"
+
+var version = "1.0.0"
+var Application = "golang"
+
+func sayGoodBye(name string) string {
+	return "Good Bye " + name
+}
+
+func SayHello(name string) string {
+	return "Hallo " + name 
+}
+
+func Contoh() {
+	sayGoodBye("Joko")
+	fmt.Println(version)
+
+}
